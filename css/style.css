@@ -1,0 +1,78 @@
+/* Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common CSS End */
+
+/* Nav Section Start */
+nav{
+    background-color: #02918c;
+}
+nav .row{
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+}
+nav .logo img{
+    display: block;
+}
+nav .menu{
+    width: 80%;
+}
+nav .menu .row{
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 22px 25.5px;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+}
+nav .menu ul li:hover a{
+    color: #cfc91d;
+}
+/* Nav Section End */
+
+/* Banner Section Start */
+#banner{
+    height: 728px;
+    background-image: url("../images/banner_image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#banner .container,
+#banner .container .row{
+    height: 100%;
+}
+#banner .row{
+    justify-content: center;
+    align-items: center;
+}
+#banner .banner_items{
+    text-align: center;
+}
+/* Banner Section End */
